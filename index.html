@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+h1{
+	text-align: center;
+	font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+	font-size: 40px;
+}
+h2{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 30px;
+}
+h3{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 25px;
+}
+h4{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 22px;
+}
+p{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+}
+img{
+	margin: auto;
+	display: block;
+}
+iframe{
+	margin: 50px;
+/*	display: block;*/
+}
+
+td, th ,table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+</style>
+
+</head>
+
+<body style="background-color: #F8E3D2;">
+	<div style="background-color: #F8E3D2;">
+		<h1>Travelling to Bangkok</h1>
+		<img width="800px" height="400" src="images/banner.jpg" alt="night view of bangkok">
+		<h3>Done by: John Smith</h3>
+		<h3>Last edited: 9 Apr 2024</h3>
+	
+		<h2>General Details</h2>
+		<p>
+			Bangkok is the capital city of Thailand and has a population of over 10 million people. It is one of the world's top tourist destinations and has been named the world's most-visited city numerous times.
+			Its name in Thai has 168 letters, but locals usually refer to Bangkok as Krung Thep, which roughly translates to 'City of Angels'. With a wide variety of activities and attractions, from traditional markets and exquisite temples to rooftop bars and modern luxury malls, there is something for everybody in Bangkok!
+		</p>
+		<img width="300px" src="images/bangkokstreet.jpg" alt="Street in Bangkok">
+	</div>
+	<div style="background-color: #E1EEFF;">
+	
+		<h2>Things to Do</h2>
+		<h3>Visiting Temples</h3>
+		<p>
+			Thailand is known for its beautiful and grand temples, and Bangkok as the capital city, has more than its share of these amazing temples. Temples like <a href="https://en.wikipedia.org/wiki/Wat_Arun">Wat Arun</a> by the Chao Phraya River and <a href="https://en.wikipedia.org/wiki/Wat_Phra_Kaew">Wat Phra Kaew</a>, the Temple of the Emerald Buddha, will be sure to blow you away with their magesty! 
+		</p>
+		<img width="300px" src="images/watarun.jpg" alt="Wat Arun">
+		<h3>Shopping</h3>
+		<p>
+			Bangkok is home to many luxury malls that cater to all ages! Popular ones include <a href="https://www.siamparagon.co.th/">Siam Paragon</a>, <a href="https://www.emquartier.co.th/">Emquartier</a>, and <a href="https://www.iconsiam.com/en">Icon Siam</a>. With fancy decorations and so many shops, there are so many things to experience!
+		</p>
+		<img width="300px" src="images/iconsiam.jpg" alt="Icon Siam">
+	</div>
+
+	<div style="background-color: #E2EDD2;">
+		<h2>Things to Look Out For</h2>
+		<h3>Video Guides on Visiting Bangkok</h3>
+		<iframe height="200" src="https://www.youtube.com/embed/NFw-WizIt50" title="A Guide to Your First Hour in Bangkok, Thailand" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<!-- <br> -->
+		<iframe height="200" src="https://www.youtube.com/embed/EY0Hvbkwn5A" title="THERE&#39;S NO PLACE LIKE BANGKOK! (Thailand)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+		<h3>Some Images of Bangkok</h3>
+		<table>
+			<tr>
+				<th>Malls</th>
+				<th>Temples</th>
+				<th>Food</th>
+			</tr>
+			<tr>
+				<td><img width="150px" src="images/iconsiam.jpg" alt="Icon Siam"></td>
+				<td><img width="150px" src="images/watarun.jpg" alt="Wat Arun"></td>
+				<td><img width="150px" src="images/phatthai.jpg" alt="Phat Thai"></td>
+			</tr>
+			<tr>
+				<td><img width="150px" src="images/emsphere.jpg" alt="EmSphere"></td>
+				<td><img width="150px" src="images/watphrakaew.jpg" alt="What Prakaew"></td>
+				<td><img width="150px" src="images/somtam.jpg" alt="Som Tam"></td>
+			</tr>
+			<tr>
+				<td><img width="150px" src="images/siamparagon.jpg" alt="Siam Paragon"></td>
+				<td><img width="150px" src="images/watsuthud.jpg" alt="Wat Suthud"></td>
+				<td><img width="150px" src="images/phatkrapao.jpg" alt="Phat Krapao"></td>
+			</tr>
+		</table>
+		<div style="background-color: #E1EEFF;border: 2px solid black;">
+			<!-- <div style="background-color: #E1EEF;"> -->
+			<h2 style="margin: 10px;">Connect with Me!</h2>
+			<form style="margin: 10px;">
+			 	<label for="name">Your name:</label><br>
+	            <input type="text" id="name" name="name" placeholder="Name"><br>
+	            <label for="phone">Your phone number:</label><br>
+	            <input type="text" id="phone" name="phone" placeholder="Phone"><br>
+
+	            <h4>What do you like to do in Bangkok?</h4>
+	            <input type="radio" id="temples" name="rate" value="temples">
+	            <label for="temples">Visiting Temples</label><br>
+	            <input type="radio" id="shopping" name="rate" value="shopping">
+	            <label for="shopping">Shopping</label><br>
+	            <input type="radio" id="others" name="rate" value="others">
+	            <label for="others">Others</label><br>
+	            <br>
+	            <button onclick="alert('Submitted form!')">Submit</button>
+			</form>
+		</div>
+		
+	</div>
+</body>
+</html>
